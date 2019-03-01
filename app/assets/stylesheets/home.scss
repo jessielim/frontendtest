@@ -1,0 +1,62 @@
+.headerLogo {
+	height: 50px;
+	margin-left: -3em;
+}
+
+.navbar.navbar-dark.bg-dark {
+	background-color: #202020 !important;
+}
+
+.col-md-6 {
+	padding: 0 !important;
+}
+
+.row.contentrow > div {
+	height: calc(50vh - 38px);
+	min-height: 250px;
+}
+
+.contentContainer {
+	background-color: rgba(0,0,0,0.65);
+	height: 100%;
+	width: 100%;
+	top:0;
+  position: absolute;
+
+  &:hover {
+  	background-color: rgba(0,77,139,0.92);
+  	.contentReadMore {
+  		display: initial;
+  	}
+  }
+}
+
+.contentImage {
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+
+.contentHeaderBold {
+	font-weight: bold;
+	font-size: 1.6em;
+}
+
+.contentReadMore {
+	color: blue;
+	background-color: white;
+	padding: 1em 3em;
+	font-size: 0.9em;
+	font-weight: bold;
+	border: none;
+	display: none;
+}
+
+.contentDescription {
+  color: #fff;
+	text-align: center;
+	padding-top: 12vh;
+	padding-left: 5vw;
+	padding-right: 5vw;
+	font-size: 0.8em;
+}
