@@ -16,6 +16,7 @@
 <div class="container-fluid bigcontainer" >
   <div class="row contentrow">
     <div class="col-md-6 col-12">
+      <%= link_to firstpage_path do %>
     	<%= image_tag "pic1.jpg", class: "contentImage" %>
     	<div class="contentContainer">
     		<div class="contentDescription">
@@ -24,6 +25,7 @@
 	    		<button class="contentReadMore">READ MORE</button>
     		</div>
     	</div>
+      <% end %>
     </div>
     <div class="col-md-6 col-12">
     	<%= image_tag "pic2.jpg", class: "contentImage"  %>

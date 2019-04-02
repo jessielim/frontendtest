@@ -60,3 +60,120 @@
 	padding-right: 5vw;
 	font-size: 0.8em;
 }
+
+
+.navbarBG {
+	background-color: rgba(255,255,255,0.1);
+}
+
+.navbar {
+	padding: 0rem 1rem;
+}
+
+.navbar-nav .nav-item {
+	border: 5px solid transparent;
+	&:hover {
+		border-top: 5px solid orange;
+	}
+}
+
+.btn.btn-primary {
+	background-color: #ffac00;
+	border-color: #ffac00;
+	margin: 1vw 0;
+	border-radius: 0;
+	padding: 1vw;
+	&:hover {
+		background-color: #ececec;
+		border-color: #ececec;
+		color: #313131;
+
+	}
+}
+.btn.btn-success {
+	background-color: #46441b;
+	border-color: #46441b;
+	margin: 1vw 0;
+	border-radius: 0;
+	padding: 1vw;
+	&:hover {
+		background-color: #ececec;
+		border-color: #ececec;
+		color: #313131;
+	}
+}
+
+.mainBanner {
+	height: 43vw;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	object-fit: cover;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+	color: #fff;
+	padding-top: 2vh;
+	&:hover {
+		color: #ffac00
+	}
+}
+
+.navbar-light .navbar-nav li {
+	padding-top: .9vh;
+}
+
+.navbar-light .navbar-nav .active > .nav-link  {
+	color: #ffac00;
+
+}
+
+.carousel  {
+	margin-bottom: 5vh;
+}
+
+.borderContent {
+	border: 1px solid white; 
+	width: fit-content; 
+	border-radius: 50%; 
+	padding: 10px; 
+	margin-left: auto; 
+	margin-right: auto;
+}
+.contentSlider {
+	color: #fff;
+	&:hover {
+		.borderContent {
+			background-color: #ececec
+		}
+	}
+}
+
+.card {
+	background-color: #ffac00;
+	color: #fff;
+	&:hover {
+		cursor: pointer;
+		background-color: #ececec;
+		color: #313131;
+		.card-title, .card-subtitle {
+			color: #ffac00
+		}
+		.card-link {
+			background-color: #ffac00;
+			color: #fff;
+		}
+	}
+}
+
+.card .card-link {
+	background-color: #ececec;
+	color: #313131;
+	width: 15vh;
+	margin-left: auto;
+	padding: 8px 2em 8px 2em;
+	@media only screen and (min-width: 600px) {
+		width: auto;
+	}
+}
